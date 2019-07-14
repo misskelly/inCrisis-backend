@@ -3,6 +3,9 @@
 
 ### Overview
 
+### Front End Repo
+- https://github.com/misskelly/ccs-frontend
+
 ### Key Learnings
 - Configuration of Circle CI
 
