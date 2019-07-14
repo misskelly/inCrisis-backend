@@ -12,7 +12,7 @@
 ### Endpoints
 #### https://cohelp-backend.herokuapp.com/**  
 
-**GET /api/v1/locations?lat=<>lng=<>**  
+**GET /api/v1/locations?lat=<xx_xxxx>lng=<xx_xxxx>**  
 returns all crisis center locations, orderd from closest to furthers geographically
 
 ```
