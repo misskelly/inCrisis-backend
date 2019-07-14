@@ -10,10 +10,9 @@ jobs:
       # specify the version you desire here
       - image: circleci/ruby:2.4.1-node-browsers
         environment:
-            BUNDLER_VERSION: 2.0.1
-            RAILS_ENV: test
-            PGHOST: localhost
-            PGUSER: ccs_cross_poll_backend
+          RAILS_ENV: test
+          PGHOST: localhost
+          PGUSER: ccs_cross_poll_backend
       - image: postgres:9.5
         environment:
           POSTGRES_USER: ccs_cross_poll_backend
@@ -34,6 +33,13 @@ jobs:
             - v1-dependencies-{{ checksum "Gemfile.lock" }}
             # fallback to using the latest cache if no exact match is found
             - v1-dependencies-
+
+      - run:
+          name: Configure Bundler
+          command: |
+            echo 'export BUNDLER_VERSION=$(cat Gemfile.lock | tail -1 | tr -d " ")' >> $BASH_ENV
+            source $BASH_ENV
+            gem install bundler
 
       - run:
           name: install dependencies
