@@ -10,7 +10,44 @@
 - Configuration of Circle CI
 
 ### Endpoints
-**https://cohelp-backend.herokuapp.com/**
+#### https://cohelp-backend.herokuapp.com/**
+
+**GET /api/v1/locations?lat="#_#",lng="#_#"**
+returns all crisis center locations, orderd from closest to furthers geographically
+
+```
+Request:
+Content-Type: application/json
+Accept: application/json
+```
+```
+Response:
+status: 200
+body:
+{
+  locations: [
+    {
+      "id": 1,
+      "name": "Denver Walk-In Crisis Services",
+      "phone": 3035041299
+      "address": "4353 E. Colfax Avenue, Denver, CO 80220",
+      "hours": "24 hours a day, 7 days a week",
+      "lat": 39.7403,
+      "lng": -104.9363
+    },
+    {
+      "id": 2,
+      "name": "Boulder Walk-In Crisis Services",
+      "phone": 3034438500
+      "address": "3180 Airport Road, Boulder, CO 80301",
+      "hours": "24 hours a day, 7 days a week",
+      "lat": 40.0330,
+      "lng": -105.2360
+    },
+    ...
+  ] 
+}
+```
 
 ### Versions
 
