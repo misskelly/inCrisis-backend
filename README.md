@@ -10,9 +10,9 @@
 - Configuration of Circle CI
 
 ### Endpoints
-#### https://cohelp-backend.herokuapp.com/**
+#### https://cohelp-backend.herokuapp.com/**  
 
-**GET /api/v1/locations?lat="#_#",lng="#_#"**
+**GET /api/v1/locations?lat=<>lng=<>**  
 returns all crisis center locations, orderd from closest to furthers geographically
 
 ```
