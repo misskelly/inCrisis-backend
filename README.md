@@ -30,7 +30,10 @@ body:
       "id": 1,
       "name": "Denver Walk-In Crisis Services",
       "phone": 3035041299
-      "address": "4353 E. Colfax Avenue, Denver, CO 80220",
+      "address": "4353 E. Colfax Avenue",
+      "city": "Denver", 
+      "state": "CO", 
+      "zip": 80220,
       "hours": "24 hours a day, 7 days a week",
       "lat": 39.7403,
       "lng": -104.9363
@@ -39,7 +42,10 @@ body:
       "id": 2,
       "name": "Boulder Walk-In Crisis Services",
       "phone": 3034438500
-      "address": "3180 Airport Road, Boulder, CO 80301",
+      "address": "3180 Airport Road",
+      "city": "Boulder",
+      "state": "CO",
+      "zip": 80301
       "hours": "24 hours a day, 7 days a week",
       "lat": 40.0330,
       "lng": -105.2360
