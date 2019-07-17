@@ -14,6 +14,8 @@ group :development, :test do
   gem 'rspec_junit_formatter'
   gem 'simplecov'
   gem 'shoulda-matchers'
+  gem 'factory_bot_rails'
+  gem 'pry'
 end
 
 group :development do
