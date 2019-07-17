@@ -30,6 +30,9 @@ closes #
 
 
 ## Co-Authors (optional):
-
+Co-Authored-By: Corey Sheesley<43529041+CSheesley@users.noreply.github.com>
+Co-Authored-By: Brennan Duffey <brennanduffey@gmail.com>
+Co-Authored-By: Kelly Zick <kllyzck@gmail.com>
+Co-Authored-By: Sally Haefling <sallyhaefling@gmail.com>
 
 ## Please include an emoji of how you feel about this branch:
