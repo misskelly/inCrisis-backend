@@ -1,16 +1,21 @@
 require 'rails_helper'
 
-describe 'GoogleDistanceAPI' do
-  describe 'response' do
+describe 'GoogleDistanceService' do
+  describe 'instance methods' do
     it 'returns an array of location information' do
+      create(:location, lat: 39.7807 , lng: -105.0828)
+      create(:location, lat: 39.5982, lng: -105.0218)
+      create(:location, lat: 40.033, lng: -105.2338)
+
       lat = 39.7504
       lng = -104.9963
+      destinations_cords = Location.all_cords_formatted
 
-      response = GoogleDistanceAPI.new(lat, lng)
+      response = GoogleDistanceService.new(lat, lng, destinations_cords).get_json
 
       locations = response[:rows][0][:elements]
 
-      expect(locations.count).to eq(10)
+      expect(locations.count).to eq(3)
       expect(locations.first.has_key?(:distance)).to eq(true)
       expect(locations.first.has_key?(:duration)).to eq(true)
     end
