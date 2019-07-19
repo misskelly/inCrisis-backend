@@ -23,3 +23,7 @@
 /config/master.key
 
 /coverage
+playground.rb
+
+# Ignore application configuration
+/config/application.yml

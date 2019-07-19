@@ -10,9 +10,9 @@ require 'rspec/rails'
 
 require 'simplecov'
 SimpleCov.start 'rails' do
-  # add_filter '/bin/'
-  # add_filter '/db/'
-  # add_filter '/spec/' # for rspec
+  add_filter '/channels/'
+  add_filter '/mailers/'
+  add_filter '/jobs/'
 end
 
 Shoulda::Matchers.configure do |config|
@@ -37,4 +37,9 @@ RSpec.configure do |config|
   config.infer_spec_type_from_file_location!
 
   config.filter_rails_from_backtrace!
+
+  config.include FactoryBot::Syntax::Methods
+  config.after :each do
+    FactoryBot.reload
+  end
 end
