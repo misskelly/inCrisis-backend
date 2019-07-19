@@ -1,0 +1,96 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://maps.googleapis.com/maps/api/distancematrix/json?destinations=39.7807,-105.0828%7C39.5982,-105.0218%7C40.033,-105.2338&key=<GOOGLE_DISTANCE_API_KEY>&mode=driving&origins=39.7504,-104.9963&units=imperial
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.15.4
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Fri, 19 Jul 2019 17:32:32 GMT
+      Expires:
+      - Fri, 19 Jul 2019 17:37:32 GMT
+      Cache-Control:
+      - public, max-age=300
+      Vary:
+      - Accept-Language
+      Server:
+      - mafe
+      Content-Length:
+      - '350'
+      X-Xss-Protection:
+      - '0'
+      X-Frame-Options:
+      - SAMEORIGIN
+      Server-Timing:
+      - gfet4t7; dur=50
+      Alt-Svc:
+      - quic=":443"; ma=2592000; v="46,43,39"
+    body:
+      encoding: ASCII-8BIT
+      string: |
+        {
+           "destination_addresses" : [
+              "7737 W 46th Ave, Wheat Ridge, CO 80033, USA",
+              "6509 S Santa Fe Dr, Littleton, CO 80120, USA",
+              "3180 Airport Rd, Boulder, CO 80301, USA"
+           ],
+           "origin_addresses" : [ "1777 Larimer St, Denver, CO 80202, USA" ],
+           "rows" : [
+              {
+                 "elements" : [
+                    {
+                       "distance" : {
+                          "text" : "8.8 mi",
+                          "value" : 14236
+                       },
+                       "duration" : {
+                          "text" : "16 mins",
+                          "value" : 953
+                       },
+                       "status" : "OK"
+                    },
+                    {
+                       "distance" : {
+                          "text" : "11.9 mi",
+                          "value" : 19155
+                       },
+                       "duration" : {
+                          "text" : "21 mins",
+                          "value" : 1270
+                       },
+                       "status" : "OK"
+                    },
+                    {
+                       "distance" : {
+                          "text" : "28.3 mi",
+                          "value" : 45571
+                       },
+                       "duration" : {
+                          "text" : "35 mins",
+                          "value" : 2120
+                       },
+                       "status" : "OK"
+                    }
+                 ]
+              }
+           ],
+           "status" : "OK"
+        }
+    http_version: 
+  recorded_at: Fri, 19 Jul 2019 17:32:32 GMT
+recorded_with: VCR 4.0.0
