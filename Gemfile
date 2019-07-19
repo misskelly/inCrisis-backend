@@ -14,13 +14,13 @@ group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   gem 'factory_bot_rails'
   gem 'faker', :git => 'https://github.com/stympy/faker.git', :branch => 'master'
-  gem 'faraday'
-  gem 'figaro'
   gem 'pry'
   gem 'rspec-rails'
   gem 'rspec_junit_formatter'
+  gem 'vcr'
   gem 'simplecov'
   gem 'shoulda-matchers'
+  gem 'webmock'
 end
 
 group :development do

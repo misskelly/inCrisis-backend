@@ -25,31 +25,39 @@ Response:
 status: 200
 body:
 {
-  locations: [
-    {
-      "id": 1,
-      "name": "Denver Walk-In Crisis Services",
-      "phone": 3035041299,
-      "address": "4353 E. Colfax Avenue",
-      "city": "Denver", 
-      "state": "CO", 
-      "zip": 80220,
-      "hours": "24 hours a day, 7 days a week",
-      "lat": 39.7403,
-      "lng": -104.9363
-    },
-    {
-      "id": 2,
-      "name": "Boulder Walk-In Crisis Services",
-      "phone": 3034438500,
-      "address": "3180 Airport Road",
-      "city": "Boulder",
-      "state": "CO",
-      "zip": 80301
-      "hours": "24 hours a day, 7 days a week",
-      "lat": 40.0330,
-      "lng": -105.2360
-    },
+locations: [
+  {
+    id: 4,
+    name: "Mental Health Center of Denver",
+    phone: 3035041299,
+    street: "4353 E Colfax Ave",
+    city: "Denver",
+    state: "CO",
+    zip: 80220,
+    office_hours: "24/7",
+    lat: 39.7403,
+    lng: -104.9363,
+    miles: 3.7,
+    meters: 5979,
+    minutes: 15,
+    seconds: 878
+  },
+  {
+    id: 1,
+    name: "Walk In Crisis Center at Jefferson Center for Mental Health",
+    phone: 3034250300,
+    street: "4643 Wadsworth Blvd",
+    city: "Wheat Ridge",
+    state: "CO",
+    zip: 80033,
+    office_hours: "24/7",
+    lat: 39.7807,
+    lng: -105.0828,
+    miles: 8.8,
+    meters: 14236,
+    minutes: 16,
+    seconds: 953
+  },
     ...
   ] 
 }
