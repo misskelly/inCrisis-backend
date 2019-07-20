@@ -13,15 +13,15 @@ class GoogleDistanceService
 
   private
 
-  def conn
-    Faraday.new('https://maps.googleapis.com/maps/api/distancematrix/json') do |f|
-      f.params['origins']="#{@lat},#{@lng}"
-      f.params['destinations']= @destinations_cords
-      f.params['mode']='driving'
-      f.params['units']='imperial'
-      f.params['key']=ENV['GOOGLE_DISTANCE_API_KEY']
-      f.adapter Faraday.default_adapter
+    def conn
+      Faraday.new('https://maps.googleapis.com/maps/api/distancematrix/json') do |f|
+        f.params['origins']="#{@lat},#{@lng}"
+        f.params['destinations']= @destinations_cords
+        f.params['mode']='driving'
+        f.params['units']='imperial'
+        f.params['key']=ENV['GOOGLE_DISTANCE_API_KEY']
+        f.adapter Faraday.default_adapter
+      end
     end
-  end
 
 end

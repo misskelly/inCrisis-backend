@@ -12,4 +12,5 @@ class Location < ApplicationRecord
   def self.all_cords_formatted
     Location.all.map {|l| l.lat.to_s + "," + l.lng.to_s }.join("|")
   end
+
 end
