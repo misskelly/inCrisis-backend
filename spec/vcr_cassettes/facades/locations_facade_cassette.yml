@@ -1,0 +1,1119 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://maps.googleapis.com/maps/api/distancematrix/json?destinations=41.0003,-107.0003%7C39.5001,-105.0001%7C40.0002,-106.0002&key=<GOOGLE_DISTANCE_API_KEY>&mode=driving&origins=39.7504,-104.9963&units=imperial
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.15.4
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Sat, 20 Jul 2019 22:43:06 GMT
+      Expires:
+      - Sat, 20 Jul 2019 22:48:06 GMT
+      Cache-Control:
+      - public, max-age=300
+      Vary:
+      - Accept-Language
+      Server:
+      - mafe
+      Content-Length:
+      - '336'
+      X-Xss-Protection:
+      - '0'
+      X-Frame-Options:
+      - SAMEORIGIN
+      Server-Timing:
+      - gfet4t7; dur=210
+      Alt-Svc:
+      - quic=":443"; ma=2592000; v="46,43,39"
+    body:
+      encoding: ASCII-8BIT
+      string: |
+        {
+           "destination_addresses" : [
+              "Clark, CO 80428, USA",
+              "9744 Chatridge Ct, Littleton, CO 80125, USA",
+              "Grand Lake, CO 80447, USA"
+           ],
+           "origin_addresses" : [ "1777 Larimer St, Denver, CO 80202, USA" ],
+           "rows" : [
+              {
+                 "elements" : [
+                    {
+                       "distance" : {
+                          "text" : "202 mi",
+                          "value" : 325497
+                       },
+                       "duration" : {
+                          "text" : "4 hours 17 mins",
+                          "value" : 15439
+                       },
+                       "status" : "OK"
+                    },
+                    {
+                       "distance" : {
+                          "text" : "19.9 mi",
+                          "value" : 32029
+                       },
+                       "duration" : {
+                          "text" : "34 mins",
+                          "value" : 2013
+                       },
+                       "status" : "OK"
+                    },
+                    {
+                       "distance" : {
+                          "text" : "85.4 mi",
+                          "value" : 137513
+                       },
+                       "duration" : {
+                          "text" : "1 hour 50 mins",
+                          "value" : 6608
+                       },
+                       "status" : "OK"
+                    }
+                 ]
+              }
+           ],
+           "status" : "OK"
+        }
+    http_version: 
+  recorded_at: Sat, 20 Jul 2019 22:43:02 GMT
+- request:
+    method: get
+    uri: https://maps.googleapis.com/maps/api/distancematrix/json?destinations=41.0003,-107.0003%7C39.5001,-105.0001%7C40.0002,-106.0002&key=<GOOGLE_DISTANCE_API_KEY>&mode=driving&origins=39.7504,-104.9963&units=imperial
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.15.4
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Sat, 20 Jul 2019 22:43:06 GMT
+      Expires:
+      - Sat, 20 Jul 2019 22:48:06 GMT
+      Cache-Control:
+      - public, max-age=300
+      Vary:
+      - Accept-Language
+      Server:
+      - mafe
+      Content-Length:
+      - '336'
+      X-Xss-Protection:
+      - '0'
+      X-Frame-Options:
+      - SAMEORIGIN
+      Server-Timing:
+      - gfet4t7; dur=79
+      Alt-Svc:
+      - quic=":443"; ma=2592000; v="46,43,39"
+    body:
+      encoding: ASCII-8BIT
+      string: |
+        {
+           "destination_addresses" : [
+              "Clark, CO 80428, USA",
+              "9744 Chatridge Ct, Littleton, CO 80125, USA",
+              "Grand Lake, CO 80447, USA"
+           ],
+           "origin_addresses" : [ "1777 Larimer St, Denver, CO 80202, USA" ],
+           "rows" : [
+              {
+                 "elements" : [
+                    {
+                       "distance" : {
+                          "text" : "202 mi",
+                          "value" : 325497
+                       },
+                       "duration" : {
+                          "text" : "4 hours 17 mins",
+                          "value" : 15439
+                       },
+                       "status" : "OK"
+                    },
+                    {
+                       "distance" : {
+                          "text" : "19.9 mi",
+                          "value" : 32029
+                       },
+                       "duration" : {
+                          "text" : "34 mins",
+                          "value" : 2013
+                       },
+                       "status" : "OK"
+                    },
+                    {
+                       "distance" : {
+                          "text" : "85.4 mi",
+                          "value" : 137513
+                       },
+                       "duration" : {
+                          "text" : "1 hour 50 mins",
+                          "value" : 6608
+                       },
+                       "status" : "OK"
+                    }
+                 ]
+              }
+           ],
+           "status" : "OK"
+        }
+    http_version: 
+  recorded_at: Sat, 20 Jul 2019 22:43:02 GMT
+- request:
+    method: get
+    uri: https://maps.googleapis.com/maps/api/distancematrix/json?destinations=41.0003,-107.0003%7C39.5001,-105.0001%7C40.0002,-106.0002&key=<GOOGLE_DISTANCE_API_KEY>&mode=driving&origins=39.7504,-104.9963&units=imperial
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.15.4
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Sat, 20 Jul 2019 22:43:07 GMT
+      Expires:
+      - Sat, 20 Jul 2019 22:48:07 GMT
+      Cache-Control:
+      - public, max-age=300
+      Vary:
+      - Accept-Language
+      Server:
+      - mafe
+      Content-Length:
+      - '336'
+      X-Xss-Protection:
+      - '0'
+      X-Frame-Options:
+      - SAMEORIGIN
+      Server-Timing:
+      - gfet4t7; dur=71
+      Alt-Svc:
+      - quic=":443"; ma=2592000; v="46,43,39"
+    body:
+      encoding: ASCII-8BIT
+      string: |
+        {
+           "destination_addresses" : [
+              "Clark, CO 80428, USA",
+              "9744 Chatridge Ct, Littleton, CO 80125, USA",
+              "Grand Lake, CO 80447, USA"
+           ],
+           "origin_addresses" : [ "1777 Larimer St, Denver, CO 80202, USA" ],
+           "rows" : [
+              {
+                 "elements" : [
+                    {
+                       "distance" : {
+                          "text" : "202 mi",
+                          "value" : 325497
+                       },
+                       "duration" : {
+                          "text" : "4 hours 17 mins",
+                          "value" : 15439
+                       },
+                       "status" : "OK"
+                    },
+                    {
+                       "distance" : {
+                          "text" : "19.9 mi",
+                          "value" : 32029
+                       },
+                       "duration" : {
+                          "text" : "34 mins",
+                          "value" : 2013
+                       },
+                       "status" : "OK"
+                    },
+                    {
+                       "distance" : {
+                          "text" : "85.4 mi",
+                          "value" : 137513
+                       },
+                       "duration" : {
+                          "text" : "1 hour 50 mins",
+                          "value" : 6608
+                       },
+                       "status" : "OK"
+                    }
+                 ]
+              }
+           ],
+           "status" : "OK"
+        }
+    http_version: 
+  recorded_at: Sat, 20 Jul 2019 22:43:02 GMT
+- request:
+    method: get
+    uri: https://maps.googleapis.com/maps/api/distancematrix/json?destinations=41.0003,-107.0003%7C39.5001,-105.0001%7C40.0002,-106.0002&key=<GOOGLE_DISTANCE_API_KEY>&mode=driving&origins=39.7504,-104.9963&units=imperial
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.15.4
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Sat, 20 Jul 2019 22:43:07 GMT
+      Expires:
+      - Sat, 20 Jul 2019 22:48:07 GMT
+      Cache-Control:
+      - public, max-age=300
+      Vary:
+      - Accept-Language
+      Server:
+      - mafe
+      Content-Length:
+      - '336'
+      X-Xss-Protection:
+      - '0'
+      X-Frame-Options:
+      - SAMEORIGIN
+      Server-Timing:
+      - gfet4t7; dur=77
+      Alt-Svc:
+      - quic=":443"; ma=2592000; v="46,43,39"
+    body:
+      encoding: ASCII-8BIT
+      string: |
+        {
+           "destination_addresses" : [
+              "Clark, CO 80428, USA",
+              "9744 Chatridge Ct, Littleton, CO 80125, USA",
+              "Grand Lake, CO 80447, USA"
+           ],
+           "origin_addresses" : [ "1777 Larimer St, Denver, CO 80202, USA" ],
+           "rows" : [
+              {
+                 "elements" : [
+                    {
+                       "distance" : {
+                          "text" : "202 mi",
+                          "value" : 325497
+                       },
+                       "duration" : {
+                          "text" : "4 hours 17 mins",
+                          "value" : 15439
+                       },
+                       "status" : "OK"
+                    },
+                    {
+                       "distance" : {
+                          "text" : "19.9 mi",
+                          "value" : 32029
+                       },
+                       "duration" : {
+                          "text" : "34 mins",
+                          "value" : 2013
+                       },
+                       "status" : "OK"
+                    },
+                    {
+                       "distance" : {
+                          "text" : "85.4 mi",
+                          "value" : 137513
+                       },
+                       "duration" : {
+                          "text" : "1 hour 50 mins",
+                          "value" : 6608
+                       },
+                       "status" : "OK"
+                    }
+                 ]
+              }
+           ],
+           "status" : "OK"
+        }
+    http_version: 
+  recorded_at: Sat, 20 Jul 2019 22:43:03 GMT
+- request:
+    method: get
+    uri: https://maps.googleapis.com/maps/api/distancematrix/json?destinations=41.0003,-107.0003%7C39.5001,-105.0001%7C40.0002,-106.0002&key=<GOOGLE_DISTANCE_API_KEY>&mode=driving&origins=39.7504,-104.9963&units=imperial
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.15.4
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Sat, 20 Jul 2019 22:43:07 GMT
+      Expires:
+      - Sat, 20 Jul 2019 22:48:07 GMT
+      Cache-Control:
+      - public, max-age=300
+      Vary:
+      - Accept-Language
+      Server:
+      - mafe
+      Content-Length:
+      - '336'
+      X-Xss-Protection:
+      - '0'
+      X-Frame-Options:
+      - SAMEORIGIN
+      Server-Timing:
+      - gfet4t7; dur=59
+      Alt-Svc:
+      - quic=":443"; ma=2592000; v="46,43,39"
+    body:
+      encoding: ASCII-8BIT
+      string: |
+        {
+           "destination_addresses" : [
+              "Clark, CO 80428, USA",
+              "9744 Chatridge Ct, Littleton, CO 80125, USA",
+              "Grand Lake, CO 80447, USA"
+           ],
+           "origin_addresses" : [ "1777 Larimer St, Denver, CO 80202, USA" ],
+           "rows" : [
+              {
+                 "elements" : [
+                    {
+                       "distance" : {
+                          "text" : "202 mi",
+                          "value" : 325497
+                       },
+                       "duration" : {
+                          "text" : "4 hours 17 mins",
+                          "value" : 15439
+                       },
+                       "status" : "OK"
+                    },
+                    {
+                       "distance" : {
+                          "text" : "19.9 mi",
+                          "value" : 32029
+                       },
+                       "duration" : {
+                          "text" : "34 mins",
+                          "value" : 2013
+                       },
+                       "status" : "OK"
+                    },
+                    {
+                       "distance" : {
+                          "text" : "85.4 mi",
+                          "value" : 137513
+                       },
+                       "duration" : {
+                          "text" : "1 hour 50 mins",
+                          "value" : 6608
+                       },
+                       "status" : "OK"
+                    }
+                 ]
+              }
+           ],
+           "status" : "OK"
+        }
+    http_version: 
+  recorded_at: Sat, 20 Jul 2019 22:43:03 GMT
+- request:
+    method: get
+    uri: https://maps.googleapis.com/maps/api/distancematrix/json?destinations=41.0003,-107.0003%7C39.5001,-105.0001%7C40.0002,-106.0002&key=<GOOGLE_DISTANCE_API_KEY>&mode=driving&origins=39.7504,-104.9963&units=imperial
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.15.4
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Sat, 20 Jul 2019 22:43:07 GMT
+      Expires:
+      - Sat, 20 Jul 2019 22:48:07 GMT
+      Cache-Control:
+      - public, max-age=300
+      Vary:
+      - Accept-Language
+      Server:
+      - mafe
+      Content-Length:
+      - '336'
+      X-Xss-Protection:
+      - '0'
+      X-Frame-Options:
+      - SAMEORIGIN
+      Server-Timing:
+      - gfet4t7; dur=59
+      Alt-Svc:
+      - quic=":443"; ma=2592000; v="46,43,39"
+    body:
+      encoding: ASCII-8BIT
+      string: |
+        {
+           "destination_addresses" : [
+              "Clark, CO 80428, USA",
+              "9744 Chatridge Ct, Littleton, CO 80125, USA",
+              "Grand Lake, CO 80447, USA"
+           ],
+           "origin_addresses" : [ "1777 Larimer St, Denver, CO 80202, USA" ],
+           "rows" : [
+              {
+                 "elements" : [
+                    {
+                       "distance" : {
+                          "text" : "202 mi",
+                          "value" : 325497
+                       },
+                       "duration" : {
+                          "text" : "4 hours 17 mins",
+                          "value" : 15439
+                       },
+                       "status" : "OK"
+                    },
+                    {
+                       "distance" : {
+                          "text" : "19.9 mi",
+                          "value" : 32029
+                       },
+                       "duration" : {
+                          "text" : "34 mins",
+                          "value" : 2013
+                       },
+                       "status" : "OK"
+                    },
+                    {
+                       "distance" : {
+                          "text" : "85.4 mi",
+                          "value" : 137513
+                       },
+                       "duration" : {
+                          "text" : "1 hour 50 mins",
+                          "value" : 6608
+                       },
+                       "status" : "OK"
+                    }
+                 ]
+              }
+           ],
+           "status" : "OK"
+        }
+    http_version: 
+  recorded_at: Sat, 20 Jul 2019 22:43:03 GMT
+- request:
+    method: get
+    uri: https://maps.googleapis.com/maps/api/distancematrix/json?destinations=41.0003,-107.0003%7C39.5001,-105.0001%7C40.0002,-106.0002&key=<GOOGLE_DISTANCE_API_KEY>&mode=driving&origins=39.7504,-104.9963&units=imperial
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.15.4
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Sat, 20 Jul 2019 22:43:07 GMT
+      Expires:
+      - Sat, 20 Jul 2019 22:48:07 GMT
+      Cache-Control:
+      - public, max-age=300
+      Vary:
+      - Accept-Language
+      Server:
+      - mafe
+      Content-Length:
+      - '336'
+      X-Xss-Protection:
+      - '0'
+      X-Frame-Options:
+      - SAMEORIGIN
+      Server-Timing:
+      - gfet4t7; dur=162
+      Alt-Svc:
+      - quic=":443"; ma=2592000; v="46,43,39"
+    body:
+      encoding: ASCII-8BIT
+      string: |
+        {
+           "destination_addresses" : [
+              "Clark, CO 80428, USA",
+              "9744 Chatridge Ct, Littleton, CO 80125, USA",
+              "Grand Lake, CO 80447, USA"
+           ],
+           "origin_addresses" : [ "1777 Larimer St, Denver, CO 80202, USA" ],
+           "rows" : [
+              {
+                 "elements" : [
+                    {
+                       "distance" : {
+                          "text" : "202 mi",
+                          "value" : 325497
+                       },
+                       "duration" : {
+                          "text" : "4 hours 17 mins",
+                          "value" : 15439
+                       },
+                       "status" : "OK"
+                    },
+                    {
+                       "distance" : {
+                          "text" : "19.9 mi",
+                          "value" : 32029
+                       },
+                       "duration" : {
+                          "text" : "34 mins",
+                          "value" : 2013
+                       },
+                       "status" : "OK"
+                    },
+                    {
+                       "distance" : {
+                          "text" : "85.4 mi",
+                          "value" : 137513
+                       },
+                       "duration" : {
+                          "text" : "1 hour 50 mins",
+                          "value" : 6608
+                       },
+                       "status" : "OK"
+                    }
+                 ]
+              }
+           ],
+           "status" : "OK"
+        }
+    http_version: 
+  recorded_at: Sat, 20 Jul 2019 22:43:03 GMT
+- request:
+    method: get
+    uri: https://maps.googleapis.com/maps/api/distancematrix/json?destinations=41.0003,-107.0003%7C39.5001,-105.0001%7C40.0002,-106.0002&key=<GOOGLE_DISTANCE_API_KEY>&mode=driving&origins=39.7504,-104.9963&units=imperial
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.15.4
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Sat, 20 Jul 2019 22:43:07 GMT
+      Expires:
+      - Sat, 20 Jul 2019 22:48:07 GMT
+      Cache-Control:
+      - public, max-age=300
+      Vary:
+      - Accept-Language
+      Server:
+      - mafe
+      Content-Length:
+      - '336'
+      X-Xss-Protection:
+      - '0'
+      X-Frame-Options:
+      - SAMEORIGIN
+      Server-Timing:
+      - gfet4t7; dur=60
+      Alt-Svc:
+      - quic=":443"; ma=2592000; v="46,43,39"
+    body:
+      encoding: ASCII-8BIT
+      string: |
+        {
+           "destination_addresses" : [
+              "Clark, CO 80428, USA",
+              "9744 Chatridge Ct, Littleton, CO 80125, USA",
+              "Grand Lake, CO 80447, USA"
+           ],
+           "origin_addresses" : [ "1777 Larimer St, Denver, CO 80202, USA" ],
+           "rows" : [
+              {
+                 "elements" : [
+                    {
+                       "distance" : {
+                          "text" : "202 mi",
+                          "value" : 325497
+                       },
+                       "duration" : {
+                          "text" : "4 hours 17 mins",
+                          "value" : 15439
+                       },
+                       "status" : "OK"
+                    },
+                    {
+                       "distance" : {
+                          "text" : "19.9 mi",
+                          "value" : 32029
+                       },
+                       "duration" : {
+                          "text" : "34 mins",
+                          "value" : 2013
+                       },
+                       "status" : "OK"
+                    },
+                    {
+                       "distance" : {
+                          "text" : "85.4 mi",
+                          "value" : 137513
+                       },
+                       "duration" : {
+                          "text" : "1 hour 50 mins",
+                          "value" : 6608
+                       },
+                       "status" : "OK"
+                    }
+                 ]
+              }
+           ],
+           "status" : "OK"
+        }
+    http_version: 
+  recorded_at: Sat, 20 Jul 2019 22:43:03 GMT
+- request:
+    method: get
+    uri: https://maps.googleapis.com/maps/api/distancematrix/json?destinations=41.0003,-107.0003%7C39.5001,-105.0001%7C40.0002,-106.0002&key=<GOOGLE_DISTANCE_API_KEY>&mode=driving&origins=39.7504,-104.9963&units=imperial
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.15.4
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Sat, 20 Jul 2019 22:43:07 GMT
+      Expires:
+      - Sat, 20 Jul 2019 22:48:07 GMT
+      Cache-Control:
+      - public, max-age=300
+      Vary:
+      - Accept-Language
+      Server:
+      - mafe
+      Content-Length:
+      - '336'
+      X-Xss-Protection:
+      - '0'
+      X-Frame-Options:
+      - SAMEORIGIN
+      Server-Timing:
+      - gfet4t7; dur=49
+      Alt-Svc:
+      - quic=":443"; ma=2592000; v="46,43,39"
+    body:
+      encoding: ASCII-8BIT
+      string: |
+        {
+           "destination_addresses" : [
+              "Clark, CO 80428, USA",
+              "9744 Chatridge Ct, Littleton, CO 80125, USA",
+              "Grand Lake, CO 80447, USA"
+           ],
+           "origin_addresses" : [ "1777 Larimer St, Denver, CO 80202, USA" ],
+           "rows" : [
+              {
+                 "elements" : [
+                    {
+                       "distance" : {
+                          "text" : "202 mi",
+                          "value" : 325497
+                       },
+                       "duration" : {
+                          "text" : "4 hours 17 mins",
+                          "value" : 15439
+                       },
+                       "status" : "OK"
+                    },
+                    {
+                       "distance" : {
+                          "text" : "19.9 mi",
+                          "value" : 32029
+                       },
+                       "duration" : {
+                          "text" : "34 mins",
+                          "value" : 2013
+                       },
+                       "status" : "OK"
+                    },
+                    {
+                       "distance" : {
+                          "text" : "85.4 mi",
+                          "value" : 137513
+                       },
+                       "duration" : {
+                          "text" : "1 hour 50 mins",
+                          "value" : 6608
+                       },
+                       "status" : "OK"
+                    }
+                 ]
+              }
+           ],
+           "status" : "OK"
+        }
+    http_version: 
+  recorded_at: Sat, 20 Jul 2019 22:43:03 GMT
+- request:
+    method: get
+    uri: https://maps.googleapis.com/maps/api/distancematrix/json?destinations=41.0003,-107.0003%7C39.5001,-105.0001%7C40.0002,-106.0002&key=<GOOGLE_DISTANCE_API_KEY>&mode=driving&origins=39.7504,-104.9963&units=imperial
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.15.4
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Sat, 20 Jul 2019 22:43:07 GMT
+      Expires:
+      - Sat, 20 Jul 2019 22:48:07 GMT
+      Cache-Control:
+      - public, max-age=300
+      Vary:
+      - Accept-Language
+      Server:
+      - mafe
+      Content-Length:
+      - '336'
+      X-Xss-Protection:
+      - '0'
+      X-Frame-Options:
+      - SAMEORIGIN
+      Server-Timing:
+      - gfet4t7; dur=33
+      Alt-Svc:
+      - quic=":443"; ma=2592000; v="46,43,39"
+    body:
+      encoding: ASCII-8BIT
+      string: |
+        {
+           "destination_addresses" : [
+              "Clark, CO 80428, USA",
+              "9744 Chatridge Ct, Littleton, CO 80125, USA",
+              "Grand Lake, CO 80447, USA"
+           ],
+           "origin_addresses" : [ "1777 Larimer St, Denver, CO 80202, USA" ],
+           "rows" : [
+              {
+                 "elements" : [
+                    {
+                       "distance" : {
+                          "text" : "202 mi",
+                          "value" : 325497
+                       },
+                       "duration" : {
+                          "text" : "4 hours 17 mins",
+                          "value" : 15439
+                       },
+                       "status" : "OK"
+                    },
+                    {
+                       "distance" : {
+                          "text" : "19.9 mi",
+                          "value" : 32029
+                       },
+                       "duration" : {
+                          "text" : "34 mins",
+                          "value" : 2013
+                       },
+                       "status" : "OK"
+                    },
+                    {
+                       "distance" : {
+                          "text" : "85.4 mi",
+                          "value" : 137513
+                       },
+                       "duration" : {
+                          "text" : "1 hour 50 mins",
+                          "value" : 6608
+                       },
+                       "status" : "OK"
+                    }
+                 ]
+              }
+           ],
+           "status" : "OK"
+        }
+    http_version: 
+  recorded_at: Sat, 20 Jul 2019 22:43:03 GMT
+- request:
+    method: get
+    uri: https://maps.googleapis.com/maps/api/distancematrix/json?destinations=41.0003,-107.0003%7C39.5001,-105.0001%7C40.0002,-106.0002&key=<GOOGLE_DISTANCE_API_KEY>&mode=driving&origins=39.7504,-104.9963&units=imperial
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.15.4
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Sat, 20 Jul 2019 22:43:08 GMT
+      Expires:
+      - Sat, 20 Jul 2019 22:48:08 GMT
+      Cache-Control:
+      - public, max-age=300
+      Vary:
+      - Accept-Language
+      Server:
+      - mafe
+      Content-Length:
+      - '336'
+      X-Xss-Protection:
+      - '0'
+      X-Frame-Options:
+      - SAMEORIGIN
+      Server-Timing:
+      - gfet4t7; dur=75
+      Alt-Svc:
+      - quic=":443"; ma=2592000; v="46,43,39"
+    body:
+      encoding: ASCII-8BIT
+      string: |
+        {
+           "destination_addresses" : [
+              "Clark, CO 80428, USA",
+              "9744 Chatridge Ct, Littleton, CO 80125, USA",
+              "Grand Lake, CO 80447, USA"
+           ],
+           "origin_addresses" : [ "1777 Larimer St, Denver, CO 80202, USA" ],
+           "rows" : [
+              {
+                 "elements" : [
+                    {
+                       "distance" : {
+                          "text" : "202 mi",
+                          "value" : 325497
+                       },
+                       "duration" : {
+                          "text" : "4 hours 17 mins",
+                          "value" : 15439
+                       },
+                       "status" : "OK"
+                    },
+                    {
+                       "distance" : {
+                          "text" : "19.9 mi",
+                          "value" : 32029
+                       },
+                       "duration" : {
+                          "text" : "34 mins",
+                          "value" : 2013
+                       },
+                       "status" : "OK"
+                    },
+                    {
+                       "distance" : {
+                          "text" : "85.4 mi",
+                          "value" : 137513
+                       },
+                       "duration" : {
+                          "text" : "1 hour 50 mins",
+                          "value" : 6608
+                       },
+                       "status" : "OK"
+                    }
+                 ]
+              }
+           ],
+           "status" : "OK"
+        }
+    http_version: 
+  recorded_at: Sat, 20 Jul 2019 22:43:03 GMT
+- request:
+    method: get
+    uri: https://maps.googleapis.com/maps/api/distancematrix/json?destinations=41.0003,-107.0003%7C39.5001,-105.0001%7C40.0002,-106.0002&key=<GOOGLE_DISTANCE_API_KEY>&mode=driving&origins=39.7504,-104.9963&units=imperial
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.15.4
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Sat, 20 Jul 2019 22:43:08 GMT
+      Expires:
+      - Sat, 20 Jul 2019 22:48:08 GMT
+      Cache-Control:
+      - public, max-age=300
+      Vary:
+      - Accept-Language
+      Server:
+      - mafe
+      Content-Length:
+      - '336'
+      X-Xss-Protection:
+      - '0'
+      X-Frame-Options:
+      - SAMEORIGIN
+      Server-Timing:
+      - gfet4t7; dur=49
+      Alt-Svc:
+      - quic=":443"; ma=2592000; v="46,43,39"
+    body:
+      encoding: ASCII-8BIT
+      string: |
+        {
+           "destination_addresses" : [
+              "Clark, CO 80428, USA",
+              "9744 Chatridge Ct, Littleton, CO 80125, USA",
+              "Grand Lake, CO 80447, USA"
+           ],
+           "origin_addresses" : [ "1777 Larimer St, Denver, CO 80202, USA" ],
+           "rows" : [
+              {
+                 "elements" : [
+                    {
+                       "distance" : {
+                          "text" : "202 mi",
+                          "value" : 325497
+                       },
+                       "duration" : {
+                          "text" : "4 hours 17 mins",
+                          "value" : 15439
+                       },
+                       "status" : "OK"
+                    },
+                    {
+                       "distance" : {
+                          "text" : "19.9 mi",
+                          "value" : 32029
+                       },
+                       "duration" : {
+                          "text" : "34 mins",
+                          "value" : 2013
+                       },
+                       "status" : "OK"
+                    },
+                    {
+                       "distance" : {
+                          "text" : "85.4 mi",
+                          "value" : 137513
+                       },
+                       "duration" : {
+                          "text" : "1 hour 50 mins",
+                          "value" : 6608
+                       },
+                       "status" : "OK"
+                    }
+                 ]
+              }
+           ],
+           "status" : "OK"
+        }
+    http_version: 
+  recorded_at: Sat, 20 Jul 2019 22:43:03 GMT
+recorded_with: VCR 4.0.0

@@ -46,11 +46,11 @@ class LocationsFacade
     end
 
     def minutes(index)
-      (proximity_json[:rows][0][:elements][index][:duration][:text]).to_f
+      proximity_json[:rows][0][:elements][index][:duration][:text].to_f
     end
 
     def seconds(index)
-      (proximity_json[:rows][0][:elements][index][:duration][:value]).to_f
+      proximity_json[:rows][0][:elements][index][:duration][:value].to_f
     end
 
     def proximity_json
