@@ -23,7 +23,7 @@ module CcsCrossPollBackend
 
     config.middleware.insert_before 0, Rack::Cors do
       allow do
-        origins 'localhost:3000', 'https://incrisis.herokuapp.com/'
+        origins 'localhost:3000', 'https://incrisis.herokuapp.com'
         resource '*', headers: :any, methods: [:get, :post, :options]
       end
     end
