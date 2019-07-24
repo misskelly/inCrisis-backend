@@ -122,6 +122,7 @@ locations: [
 **POST /api/v1/locations/information_text**  
 Creates two subsequent SMS text messages which are sent to a user's phone number. These SMS messages include (1) the name of the nearest crisis center based on their given location, and (2) information about that center - address, office_hours, phone.
 
+<<<<<<< HEAD
 Required Parameters:
 `location_id` - Integer: Associated with the closest crisis center which was returned in the previous API call.
 `phone` - Integer: Ten consecutive digits
@@ -160,3 +161,13 @@ Database Setup
 `$ rspec`
 
  - circle ci mention
+=======
+### Versions
+
+### Local Setup
+
+### Testing
+
+### Circle CI
+[![CircleCI](https://circleci.com/gh/CSheesley/ccs_cross_poll_backend.svg?style=svg)](https://circleci.com/gh/CSheesley/ccs_cross_poll_backend)
+>>>>>>> 87bc7cb805f99a5217d6e45ee4f6edd9e1505586

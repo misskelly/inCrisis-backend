@@ -1,0 +1,148 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://api.twilio.com/2010-04-01/Accounts/ACe690dc491a27b3c2ea1d62495f768926/Messages.json
+    body:
+      encoding: UTF-8
+      string: Body=Nearest+Center%3A%0A++++++recontextualize+vertical+partnerships&From=%2B15072747471&To=%2B1+17202018631
+    headers:
+      User-Agent:
+      - twilio-ruby/5.25.1 (ruby/x86_64-darwin17 2.4.1-p111)
+      Accept-Charset:
+      - utf-8
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept:
+      - application/json
+      Authorization:
+      - Basic QUNlNjkwZGM0OTFhMjdiM2MyZWExZDYyNDk1Zjc2ODkyNjozNTg4YWY0ZGJiYmEzYWE2ZTFiYjI5NGE2ODVhYTEzNw==
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 201
+      message: CREATED
+    headers:
+      Date:
+      - Wed, 24 Jul 2019 04:10:45 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '862'
+      Connection:
+      - keep-alive
+      Twilio-Concurrent-Requests:
+      - '1'
+      Twilio-Request-Id:
+      - RQ056e2697d92343eb8963f5343f63e284
+      Twilio-Request-Duration:
+      - '0.108'
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Headers:
+      - Accept, Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match,
+        If-Unmodified-Since
+      Access-Control-Allow-Methods:
+      - GET, POST, DELETE, OPTIONS
+      Access-Control-Expose-Headers:
+      - ETag
+      Access-Control-Allow-Credentials:
+      - 'true'
+      X-Powered-By:
+      - AT-5000
+      X-Shenanigans:
+      - none
+      X-Home-Region:
+      - us1
+      X-Api-Domain:
+      - api.twilio.com
+      Strict-Transport-Security:
+      - max-age=31536000
+    body:
+      encoding: UTF-8
+      string: '{"sid": "SMb302628334dc4f0b926f025a92d9628d", "date_created": "Wed,
+        24 Jul 2019 04:10:45 +0000", "date_updated": "Wed, 24 Jul 2019 04:10:45 +0000",
+        "date_sent": null, "account_sid": "ACe690dc491a27b3c2ea1d62495f768926", "to":
+        "+17202018631", "from": "+15072747471", "messaging_service_sid": null, "body":
+        "Sent from your Twilio trial account - Nearest Center:\n      recontextualize
+        vertical partnerships", "status": "queued", "num_segments": "1", "num_media":
+        "0", "direction": "outbound-api", "api_version": "2010-04-01", "price": null,
+        "price_unit": "USD", "error_code": null, "error_message": null, "uri": "/2010-04-01/Accounts/ACe690dc491a27b3c2ea1d62495f768926/Messages/SMb302628334dc4f0b926f025a92d9628d.json",
+        "subresource_uris": {"media": "/2010-04-01/Accounts/ACe690dc491a27b3c2ea1d62495f768926/Messages/SMb302628334dc4f0b926f025a92d9628d/Media.json"}}'
+    http_version: 
+  recorded_at: Wed, 24 Jul 2019 04:10:43 GMT
+- request:
+    method: post
+    uri: https://api.twilio.com/2010-04-01/Accounts/ACe690dc491a27b3c2ea1d62495f768926/Messages.json
+    body:
+      encoding: UTF-8
+      string: Body=Info%3A%0A++++++20385+Bess+Tunnel%0A++++++North+Perry%2C+WA+18100%0A++++++Hours%3A+24%2F7%0A++++++Phone%3A+1234567890&From=%2B15072747471&To=%2B1+17202018631
+    headers:
+      User-Agent:
+      - twilio-ruby/5.25.1 (ruby/x86_64-darwin17 2.4.1-p111)
+      Accept-Charset:
+      - utf-8
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept:
+      - application/json
+      Authorization:
+      - Basic QUNlNjkwZGM0OTFhMjdiM2MyZWExZDYyNDk1Zjc2ODkyNjozNTg4YWY0ZGJiYmEzYWE2ZTFiYjI5NGE2ODVhYTEzNw==
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 201
+      message: CREATED
+    headers:
+      Date:
+      - Wed, 24 Jul 2019 04:10:45 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '905'
+      Connection:
+      - keep-alive
+      Twilio-Concurrent-Requests:
+      - '1'
+      Twilio-Request-Id:
+      - RQd20ae1992bee428dbafa299ded57e4e1
+      Twilio-Request-Duration:
+      - '0.076'
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Headers:
+      - Accept, Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match,
+        If-Unmodified-Since
+      Access-Control-Allow-Methods:
+      - GET, POST, DELETE, OPTIONS
+      Access-Control-Expose-Headers:
+      - ETag
+      Access-Control-Allow-Credentials:
+      - 'true'
+      X-Powered-By:
+      - AT-5000
+      X-Shenanigans:
+      - none
+      X-Home-Region:
+      - us1
+      X-Api-Domain:
+      - api.twilio.com
+      Strict-Transport-Security:
+      - max-age=31536000
+    body:
+      encoding: UTF-8
+      string: '{"sid": "SMd5ae9d526db741e981af8d8cd1c199cb", "date_created": "Wed,
+        24 Jul 2019 04:10:45 +0000", "date_updated": "Wed, 24 Jul 2019 04:10:45 +0000",
+        "date_sent": null, "account_sid": "ACe690dc491a27b3c2ea1d62495f768926", "to":
+        "+17202018631", "from": "+15072747471", "messaging_service_sid": null, "body":
+        "Sent from your Twilio trial account - Info:\n      20385 Bess Tunnel\n      North
+        Perry, WA 18100\n      Hours: 24/7\n      Phone: 1234567890", "status": "queued",
+        "num_segments": "1", "num_media": "0", "direction": "outbound-api", "api_version":
+        "2010-04-01", "price": null, "price_unit": "USD", "error_code": null, "error_message":
+        null, "uri": "/2010-04-01/Accounts/ACe690dc491a27b3c2ea1d62495f768926/Messages/SMd5ae9d526db741e981af8d8cd1c199cb.json",
+        "subresource_uris": {"media": "/2010-04-01/Accounts/ACe690dc491a27b3c2ea1d62495f768926/Messages/SMd5ae9d526db741e981af8d8cd1c199cb/Media.json"}}'
+    http_version: 
+  recorded_at: Wed, 24 Jul 2019 04:10:43 GMT
+recorded_with: VCR 4.0.0
