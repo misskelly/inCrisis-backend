@@ -14,7 +14,7 @@ describe 'LocationsFacade' do
           combined_data = LocationsFacade.new(params).combined_data
 
           expect(combined_data.count).to eq(3)
-          expect(combined_data.first.keys.count).to eq(14)
+          expect(combined_data.first.keys.count).to eq(16)
 
           expect(combined_data.first.has_key?(:miles)).to eq(true)
           expect(combined_data.first.has_key?(:meters)).to eq(true)

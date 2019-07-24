@@ -9,5 +9,7 @@ FactoryBot.define do
     office_hours { Faker::Quote.yoda }
     sequence(:lat) { |n| (("#{n}".to_i * 5)) + 30 }
     sequence(:lng) { |n| (("#{n}".to_i * 5)) - 105 }
+    website { 'https://www.fakewebsite.com' }
+    logo { 'https://www.fakelogourl.com' }
   end
 end

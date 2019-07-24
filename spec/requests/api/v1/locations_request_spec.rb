@@ -22,7 +22,9 @@ describe 'Locations API' do
                         "lat",
                         "lng",
                         "created_at",
-                        "updated_at"
+                        "updated_at",
+                        "website",
+                        "logo"
                       ]
 
       expect(response.status).to eq(200)

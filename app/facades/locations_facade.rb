@@ -27,6 +27,8 @@ class LocationsFacade
         office_hours: location.office_hours,
         lat: location.lat,
         lng: location.lng,
+        website: location.website,
+        logo: location.logo,
         miles: miles(index),
         meters: meters(index),
         minutes: minutes(index),
