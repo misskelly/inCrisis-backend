@@ -2,7 +2,7 @@ require 'rails_helper'
 
 describe 'Information Text API' do
   context 'POST api/v1/locations/information_text' do
-    it 'returns 204 status code' do
+    it 'returns 201 status code and a response that a text message was sent' do
       VCR.use_cassette('requests/information_text_cassette') do
         loc_1 = create(:location, id: 1, phone: 1234567890, office_hours: "24/7")
 
