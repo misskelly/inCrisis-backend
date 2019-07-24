@@ -35,7 +35,7 @@ body:
 locations: [
   {
     "id": 1,
-    "name": "Walk In Crisis Center at Jefferson Center for Mental Health",
+    "name": "Center for Mental Health: Crisis Walk-In Crisis Center",
     "phone": 3034250300,
     "street": "4643 Wadsworth Blvd",
     "city": "Wheat Ridge",
@@ -43,11 +43,15 @@ locations: [
     "zip": 80033,
     "office_hours": "24/7",
     "lat": 39.7807,
-    "lng": -105.0828
+    "lng": -105.0828,
+    "created_at": "2019-07-24T21:30:35.904Z",
+    "updated_at": "2019-07-24T21:30:35.904Z",
+    "website": "https://www.centermh.org/crisis-walk-in-center/",
+    "logo": "https://github.com/CSheesley/ccs-frontend/blob/all-centers-pg/src/assets/images/center-logos/wheatridge-logo.png?raw=true"
   },
   {
     "id": 2,
-    "name": "AllHealth Network Crisis Walk In Center",
+    "name": "AllHealth Network Crisis Walk-In Center",
     "phone": 3037303303,
     "street": "6509 S Santa Fe Dr",
     "city": "Littleton",
@@ -56,6 +60,10 @@ locations: [
     "office_hours": "24/7",
     "lat": 39.5982,
     "lng": -105.0218,
+    "created_at": "2019-07-24T21:30:35.947Z",
+    "updated_at": "2019-07-24T21:30:35.947Z",
+    "website": "https://www.allhealthnetwork.org/services/crisis-services/",
+    "logo": "https://github.com/CSheesley/ccs-frontend/blob/all-centers-pg/src/assets/images/center-logos/littleton-logo.png?raw=true"
   },
     ...
   ]
@@ -83,36 +91,40 @@ body:
 {
 locations: [
   {
-    id: 4,
-    name: "Mental Health Center of Denver",
-    phone: 3035041299,
-    street: "4353 E Colfax Ave",
-    city: "Denver",
-    state: "CO",
-    zip: 80220,
-    office_hours: "24/7",
-    lat: 39.7403,
-    lng: -104.9363,
-    miles: 3.7,
-    meters: 5979,
-    minutes: 15,
-    seconds: 878
+    "id": 4,
+    "name": "Mental Health Center of Denver",
+    "phone": 3035041299,
+    "street": "4353 E Colfax Ave",
+    "city": "Denver",
+    "state": "CO",
+    "zip": 80220,
+    "office_hours": "24/7",
+    "lat": 39.7403,
+    "lng": -104.9363,
+    "website": "https://mhcd.org/suicide-prevention/",
+    "logo": "https://github.com/CSheesley/ccs-frontend/blob/all-centers-pg/src/assets/images/center-logos/mhcd.jpg?raw=true",
+    "miles": 3.7,
+    "meters": 5979.0,
+    "minutes": 15.0,
+    "seconds": 878.0
   },
   {
-    id: 1,
-    name: "Walk In Crisis Center at Jefferson Center for Mental Health",
-    phone: 3034250300,
-    street: "4643 Wadsworth Blvd",
-    city: "Wheat Ridge",
-    state: "CO",
-    zip: 80033,
-    office_hours: "24/7",
-    lat: 39.7807,
-    lng: -105.0828,
-    miles: 8.8,
-    meters: 14236,
-    minutes: 16,
-    seconds: 953
+    "id": 1,
+    "name": "Center for Mental Health: Crisis Walk-In Crisis Center",
+    "phone": 3034250300,
+    "street": "4643 Wadsworth Blvd",
+    "city": "Wheat Ridge",
+    "state": "CO",
+    "zip": 80033,
+    "office_hours": "24/7",
+    "lat": 39.7807,
+    "lng": -105.0828,
+    "website": "https://www.centermh.org/crisis-walk-in-center/",
+    "logo": "https://github.com/CSheesley/ccs-frontend/blob/all-centers-pg/src/assets/images/center-logos/wheatridge-logo.png?raw=true",
+    "miles": 8.8,
+    "meters": 14236.0,
+    "minutes": 16.0,
+    "seconds": 953.0
   },
     ...
   ]
@@ -158,12 +170,6 @@ Database Setup
 
 ### Testing
 `$ rspec`
-
-### Versions
-
-### Local Setup
-
-### Testing
 
 ### Circle CI
 [![CircleCI](https://circleci.com/gh/CSheesley/ccs_cross_poll_backend.svg?style=svg)](https://circleci.com/gh/CSheesley/ccs_cross_poll_backend)
