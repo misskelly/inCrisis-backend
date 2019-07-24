@@ -22,12 +22,17 @@ describe 'Locations API' do
                         "lat",
                         "lng",
                         "created_at",
-                        "updated_at"
+                        "updated_at",
+                        "website",
+                        "logo"
                       ]
 
       expect(response.status).to eq(200)
-      expect(locations.count).to eq(3)
-      expect(first_location.keys).to eq(expected_keys)
+      expect(locations.count).to eq(3) 
+      
+      expected_keys.each do |key|
+        expect(first_location.keys).to include(key)
+      end
     end
   end
 end
