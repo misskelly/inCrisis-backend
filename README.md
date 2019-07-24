@@ -173,3 +173,13 @@ Database Setup
 
 ### Circle CI
 [![CircleCI](https://circleci.com/gh/CSheesley/ccs_cross_poll_backend.svg?style=svg)](https://circleci.com/gh/CSheesley/ccs_cross_poll_backend)
+
+### Authors:
+
+[Corey Sheesley](https://github.com/CSheesley)
+
+[Brennan Duffey](https://github.com/BrennanDuffey)
+
+[Kelly Zick](https://github.com/misskelly/)
+
+[Sally Haefling](https://github.com/SallyHaefling)
