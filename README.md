@@ -69,5 +69,5 @@ locations: [
 
 ### Testing
 
-#### Circle CI
+### Circle CI
 [![CircleCI](https://circleci.com/gh/CSheesley/ccs_cross_poll_backend.svg?style=svg)](https://circleci.com/gh/CSheesley/ccs_cross_poll_backend)
