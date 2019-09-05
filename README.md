@@ -1,4 +1,5 @@
-# README
+# INCRISIS-BACKEND
+[![CircleCI](https://circleci.com/gh/CSheesley/ccs_cross_poll_backend.svg?style=svg)](https://circleci.com/gh/CSheesley/ccs_cross_poll_backend)
 
 ### Overview
 This is the repository for the backend application which works in conjunction with our [front end application](https://github.com/csheesley/ccs-frontend), to create the full functioning website - **[inCrisis.herokuapp.com](https://incrisis.herokuapp.com/)**
@@ -182,8 +183,6 @@ Database Setup
 `$ rspec` - will run the full test suite.    
 `VCR` is being used to mock out API calls in tests.  
 
-### Circle CI
-[![CircleCI](https://circleci.com/gh/CSheesley/ccs_cross_poll_backend.svg?style=svg)](https://circleci.com/gh/CSheesley/ccs_cross_poll_backend)
 
 ### Authors:
 
